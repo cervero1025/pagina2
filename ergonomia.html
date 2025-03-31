@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergonomía y Bienestar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Ergonomía y Bienestar</h1>
+        <p>Explora cómo la ergonomía mejora tu bienestar, productividad y calidad de vida.</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#" onclick="toggleSection('posturas')">Posturas Correctas</a>
+        <a href="#" onclick="toggleSection('mobiliario')">Mobiliario Ergonómico</a>
+        <a href="#" onclick="toggleSection('prevencion')">Prevención de Lesiones</a>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="content">
+        <!-- Sección de Posturas Correctas -->
+        <div class="section" id="posturas">
+            <h2><i class="fas fa-user-alt"></i> Posturas Correctas para la Salud</h2>
+            <p class="posturas-article">
+                Adoptar una postura correcta es esencial para prevenir dolores y lesiones a largo plazo. Mantener la alineación adecuada de la columna, evitar posturas forzadas y realizar descansos frecuentes son hábitos clave para cuidar de nuestra salud física.
+            </p>
+            <button onclick="toggleArticle('posturas-article')">Leer Más</button>
+            <div class="extra-content" id="posturas-article">
+                <h3><i class="fas fa-spine"></i> Postura Sentado Correcta</h3>
+                <p>Es fundamental mantener la espalda recta y los pies apoyados en el suelo. El respaldo de la silla debe brindar soporte lumbar para evitar sobrecargar la columna vertebral. Mantén el ángulo de los codos a 90 grados y las muñecas en una posición neutral al escribir o usar el mouse.</p>
+                
+                <h3><i class="fas fa-balance-scale"></i> Postura de Pie</h3>
+                <p>Al estar de pie, distribuye el peso equitativamente entre ambos pies. Evita permanecer en una sola posición por mucho tiempo. Si es necesario, utiliza un reposapiés o cambia de posición para aliviar la presión sobre las piernas y la espalda.</p>
+
+                <h3><i class="fas fa-bed"></i> Postura para Dormir</h3>
+                <p>La postura al dormir también es crucial para la salud. Dormir de lado con una almohada entre las piernas puede reducir el dolor lumbar. Si duermes boca arriba, asegúrate de que el colchón sea lo suficientemente firme para evitar que la columna se curve.</p>
+
+                <h3><i class="fas fa-arrow-up"></i> Postura al Usar el Teléfono</h3>
+                <p>El uso del teléfono móvil puede causar tensión en el cuello y hombros. Es importante no inclinarse hacia adelante para mirar la pantalla. En lugar de eso, mantén el teléfono a la altura de los ojos y usa un soporte para evitar forzar los músculos del cuello.</p>
+
+                <h3><i class="fas fa-car"></i> Postura al Conducir</h3>
+                <p>Al conducir, asegúrate de que el asiento esté ajustado correctamente para que puedas alcanzar los pedales sin esfuerzo. El respaldo del asiento debe estar a un ángulo cómodo y mantener la espalda recta. Los brazos deben estar ligeramente doblados al manejar el volante.</p>
+            </div>
+        </div>
+
+        <!-- Sección de Mobiliario Ergonómico -->
+        <div class="section" id="mobiliario">
+            <h2><i class="fas fa-couch"></i> Mobiliario Ergonómico</h2>
+            <p class="mobiliario-article">
+                El mobiliario adecuado es fundamental para crear un entorno de trabajo ergonómico que favorezca nuestra salud. Desde sillas hasta escritorios, la elección correcta del mobiliario puede marcar la diferencia en la prevención de lesiones.
+            </p>
+            <button onclick="toggleArticle('mobiliario-article')">Leer Más</button>
+            <div class="extra-content" id="mobiliario-article">
+                <h3><i class="fas fa-chair"></i> Sillas Ergonómicas</h3>
+                <p>Una buena silla ergonómica debe ofrecer soporte lumbar adecuado y permitir ajustar la altura y la inclinación. Busca sillas con respaldo curvado que sigan la forma natural de la columna y con asiento ajustable para mantener las piernas en ángulo de 90 grados.</p>
+
+                <h3><i class="fas fa-desktop"></i> Escritorios Ergonómicos</h3>
+                <p>El escritorio debe permitir que tu pantalla esté a la altura de los ojos, para evitar forzar el cuello. Asegúrate de que haya suficiente espacio para que tus brazos estén a la altura del escritorio y que puedas mover el mouse sin esfuerzo.</p>
+
+                <h3><i class="fas fa-mouse"></i> Accesorios Ergonómicos</h3>
+                <p>Accesorios como teclados y ratones ergonómicos, además de reposapiés, pueden mejorar considerablemente tu postura al trabajar durante largas horas. Un reposapiés ajustable puede ayudar a mantener las piernas en una posición cómoda, evitando la tensión muscular.</p>
+
+                <h3><i class="fas fa-cogs"></i> Ajustes Personalizados</h3>
+                <p>Recuerda que cada persona tiene una constitución física diferente. Es importante ajustar tu silla, escritorio y otros accesorios ergonómicos según tus necesidades personales. Los escritorios de altura ajustable permiten alternar entre sentarse y estar de pie, lo que reduce la fatiga.</p>
+
+                <h3><i class="fas fa-lightbulb"></i> Iluminación Ergonómica</h3>
+                <p>Una buena iluminación es clave para evitar la fatiga ocular. Utiliza luces LED de bajo consumo que no generen deslumbramiento y asegúrate de que tu área de trabajo esté bien iluminada para evitar forzar la vista. Además, considera la luz natural, que es beneficiosa para el bienestar general.</p>
+            </div>
+        </div>
+
+        <!-- Sección de Prevención de Lesiones -->
+        <div class="section" id="prevencion">
+            <h2><i class="fas fa-hand-paper"></i> Prevención de Lesiones Ergonómicas</h2>
+            <p class="prevencion-article">
+                Las lesiones por esfuerzo repetitivo y otras afecciones relacionadas con la postura pueden prevenirse con prácticas ergonómicas adecuadas. Aprender a reconocer los signos tempranos y tomar acciones preventivas es esencial para evitar problemas graves.
+            </p>
+            <button onclick="toggleArticle('prevencion-article')">Leer Más</button>
+            <div class="extra-content" id="prevencion-article">
+                <h3><i class="fas fa-exclamation-triangle"></i> Lesiones Comunes</h3>
+                <p>Las lesiones más comunes derivadas de malas prácticas ergonómicas incluyen dolor lumbar, síndrome del túnel carpiano, y tendinitis. Estas afecciones pueden ser debilitantes si no se tratan a tiempo. El dolor crónico generalmente proviene de malas posturas mantenidas durante largos períodos.</p>
+
+                <h3><i class="fas fa-stopwatch"></i> Importancia de los Descansos</h3>
+                <p>Realizar pausas activas cada 30 minutos es esencial. Levántate, estira las piernas y realiza movimientos de relajación para evitar la rigidez muscular. Pequeños descansos durante el día pueden mejorar tu productividad y reducir el riesgo de lesiones.</p>
+
+                <h3><i class="fas fa-walking"></i> Ejercicios de Estiramiento</h3>
+                <p>Realizar ejercicios de estiramiento durante el día puede reducir la tensión muscular. Algunos ejercicios simples incluyen estiramientos de muñecas, cuello, y espalda baja. También puedes incorporar caminatas cortas para mejorar la circulación y reducir la fatiga.</p>
+
+                <h3><i class="fas fa-dumbbell"></i> Ejercicio Físico Regular</h3>
+                <p>Además de los estiramientos, es importante incorporar ejercicios de fuerza para mantener el cuerpo en equilibrio. La actividad física regular, como el yoga, el pilates o incluso caminar, ayuda a fortalecer los músculos que soportan la columna vertebral, evitando lesiones a largo plazo.</p>
+
+                <h3><i class="fas fa-heartbeat"></i> Prevención de Lesiones en el Trabajo</h3>
+                <p>Si trabajas en una oficina, asegúrate de que tu espacio esté organizado para evitar tensiones innecesarias. Usa un teclado y un mouse ergonómicos, ajusta la altura de tu silla y escritorio, y recuerda tomar descansos regulares. Asegúrate de mantener un equilibrio entre trabajo y descanso para prevenir el agotamiento.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
