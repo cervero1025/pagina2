@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+}
+
+header {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #38a3a5;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #5c9992;
+    border-radius: 5px;
+}
+
+.content {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+/* Secciones */
+.section {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Todas las secciones están ocultas por defecto */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #264d3d;
+}
+
+.extra-content {
+    display: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Iconos */
+.fas {
+    margin-right: 10px;
+}
